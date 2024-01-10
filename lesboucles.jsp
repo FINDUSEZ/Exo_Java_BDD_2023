@@ -30,11 +30,11 @@
 <p>Exemple si l'utilisateur saisie le valeur 5</p>
 <p>*****</br>*****</br>*****</br>*****</br>*****</p>
 String valeur = request.getParameter("valeur");
-<%int cpt = Integer.parseInt(valeur); %>
-    <p>
-    <% for (int i = 1; i <= cpt; i++) { %>
-       <%= "*" %>
-    <% } %>
+int cpt = Integer.parseInt(valeur); 
+     for (int i = 1; i <= cpt; i++) { 
+       = "*" 
+     } 
+
 
 
 <h2>Exercice 2 : Triangle rectangle gauche</h2>
